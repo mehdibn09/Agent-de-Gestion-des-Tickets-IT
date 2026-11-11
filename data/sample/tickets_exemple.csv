@@ -1,0 +1,101 @@
+id,titre,description,categorie,famille,source
+train-acces-01-0,Demande de support acces,Mon compte utilisateur est verrouillé après plusieurs essais.,acces,train-acces-01,simulation_pedagogique
+train-acces-01-1,Demande de support acces,Bonjour. Mon compte utilisateur est verrouillé après plusieurs essais. Merci de vérifier ce problème.,acces,train-acces-01,simulation_pedagogique
+train-acces-02-0,Demande de support acces,Mon mot de passe est expiré et doit être réinitialisé.,acces,train-acces-02,simulation_pedagogique
+train-acces-02-1,Demande de support acces,Bonjour. Mon mot de passe est expiré et doit être réinitialisé. Merci de vérifier ce problème.,acces,train-acces-02,simulation_pedagogique
+train-acces-03-0,Demande de support acces,Je n’ai pas les droits de lecture sur le dossier partagé.,acces,train-acces-03,simulation_pedagogique
+train-acces-03-1,Demande de support acces,Bonjour. Je n’ai pas les droits de lecture sur le dossier partagé. Merci de vérifier ce problème.,acces,train-acces-03,simulation_pedagogique
+train-acces-04-0,Demande de support acces,Le portail refuse mon identifiant alors que mon compte existe.,acces,train-acces-04,simulation_pedagogique
+train-acces-04-1,Demande de support acces,Bonjour. Le portail refuse mon identifiant alors que mon compte existe. Merci de vérifier ce problème.,acces,train-acces-04,simulation_pedagogique
+train-acces-05-0,Demande de support acces,Mon compte a été désactivé et je demande sa réactivation.,acces,train-acces-05,simulation_pedagogique
+train-acces-05-1,Demande de support acces,Bonjour. Mon compte a été désactivé et je demande sa réactivation. Merci de vérifier ce problème.,acces,train-acces-05,simulation_pedagogique
+train-acces-06-0,Demande de support acces,Le code de double authentification est refusé.,acces,train-acces-06,simulation_pedagogique
+train-acces-06-1,Demande de support acces,Bonjour. Le code de double authentification est refusé. Merci de vérifier ce problème.,acces,train-acces-06,simulation_pedagogique
+train-acces-07-0,Demande de support acces,Je demande une autorisation pour consulter le répertoire du service.,acces,train-acces-07,simulation_pedagogique
+train-acces-07-1,Demande de support acces,Bonjour. Je demande une autorisation pour consulter le répertoire du service. Merci de vérifier ce problème.,acces,train-acces-07,simulation_pedagogique
+train-acces-08-0,Demande de support acces,L’accès à l’espace collaboratif est interdit à mon compte.,acces,train-acces-08,simulation_pedagogique
+train-acces-08-1,Demande de support acces,Bonjour. L’accès à l’espace collaboratif est interdit à mon compte. Merci de vérifier ce problème.,acces,train-acces-08,simulation_pedagogique
+train-acces-09-0,Demande de support acces,Impossible de me connecter avec mon identifiant utilisateur.,acces,train-acces-09,simulation_pedagogique
+train-acces-09-1,Demande de support acces,Bonjour. Impossible de me connecter avec mon identifiant utilisateur. Merci de vérifier ce problème.,acces,train-acces-09,simulation_pedagogique
+train-acces-10-0,Demande de support acces,Je dois changer mon mot de passe oublié.,acces,train-acces-10,simulation_pedagogique
+train-acces-10-1,Demande de support acces,Bonjour. Je dois changer mon mot de passe oublié. Merci de vérifier ce problème.,acces,train-acces-10,simulation_pedagogique
+train-acces-11-0,Demande de support acces,Mon rôle ne permet pas de modifier les documents.,acces,train-acces-11,simulation_pedagogique
+train-acces-11-1,Demande de support acces,Bonjour. Mon rôle ne permet pas de modifier les documents. Merci de vérifier ce problème.,acces,train-acces-11,simulation_pedagogique
+train-acces-12-0,Demande de support acces,L’authentification du compte échoue sur le portail interne.,acces,train-acces-12,simulation_pedagogique
+train-acces-12-1,Demande de support acces,Bonjour. L’authentification du compte échoue sur le portail interne. Merci de vérifier ce problème.,acces,train-acces-12,simulation_pedagogique
+train-acces-13-0,Demande de support acces,Je demande les droits d’écriture sur un dossier.,acces,train-acces-13,simulation_pedagogique
+train-logiciel-01-0,Demande de support logiciel,Le logiciel de comptabilité se ferme au lancement.,logiciel,train-logiciel-01,simulation_pedagogique
+train-logiciel-01-1,Demande de support logiciel,Bonjour. Le logiciel de comptabilité se ferme au lancement. Merci de vérifier ce problème.,logiciel,train-logiciel-01,simulation_pedagogique
+train-logiciel-02-0,Demande de support logiciel,Le navigateur plante dès que je l’ouvre.,logiciel,train-logiciel-02,simulation_pedagogique
+train-logiciel-02-1,Demande de support logiciel,Bonjour. Le navigateur plante dès que je l’ouvre. Merci de vérifier ce problème.,logiciel,train-logiciel-02,simulation_pedagogique
+train-logiciel-03-0,Demande de support logiciel,Le tableur affiche une erreur lors du calcul.,logiciel,train-logiciel-03,simulation_pedagogique
+train-logiciel-03-1,Demande de support logiciel,Bonjour. Le tableur affiche une erreur lors du calcul. Merci de vérifier ce problème.,logiciel,train-logiciel-03,simulation_pedagogique
+train-logiciel-04-0,Demande de support logiciel,La mise à jour de l’application échoue avec un message.,logiciel,train-logiciel-04,simulation_pedagogique
+train-logiciel-04-1,Demande de support logiciel,Bonjour. La mise à jour de l’application échoue avec un message. Merci de vérifier ce problème.,logiciel,train-logiciel-04,simulation_pedagogique
+train-logiciel-05-0,Demande de support logiciel,Le traitement de texte ne démarre plus.,logiciel,train-logiciel-05,simulation_pedagogique
+train-logiciel-05-1,Demande de support logiciel,Bonjour. Le traitement de texte ne démarre plus. Merci de vérifier ce problème.,logiciel,train-logiciel-05,simulation_pedagogique
+train-logiciel-06-0,Demande de support logiciel,Le logiciel de dessin se bloque à l’ouverture d’un document.,logiciel,train-logiciel-06,simulation_pedagogique
+train-logiciel-06-1,Demande de support logiciel,Bonjour. Le logiciel de dessin se bloque à l’ouverture d’un document. Merci de vérifier ce problème.,logiciel,train-logiciel-06,simulation_pedagogique
+train-logiciel-07-0,Demande de support logiciel,L’application de gestion affiche une fenêtre d’erreur.,logiciel,train-logiciel-07,simulation_pedagogique
+train-logiciel-07-1,Demande de support logiciel,Bonjour. L’application de gestion affiche une fenêtre d’erreur. Merci de vérifier ce problème.,logiciel,train-logiciel-07,simulation_pedagogique
+train-logiciel-08-0,Demande de support logiciel,Le programme de visioconférence se ferme sans raison.,logiciel,train-logiciel-08,simulation_pedagogique
+train-logiciel-08-1,Demande de support logiciel,Bonjour. Le programme de visioconférence se ferme sans raison. Merci de vérifier ce problème.,logiciel,train-logiciel-08,simulation_pedagogique
+train-logiciel-09-0,Demande de support logiciel,Impossible d’installer le logiciel sur mon ordinateur.,logiciel,train-logiciel-09,simulation_pedagogique
+train-logiciel-09-1,Demande de support logiciel,Bonjour. Impossible d’installer le logiciel sur mon ordinateur. Merci de vérifier ce problème.,logiciel,train-logiciel-09,simulation_pedagogique
+train-logiciel-10-0,Demande de support logiciel,Le lecteur PDF plante sur tous les fichiers.,logiciel,train-logiciel-10,simulation_pedagogique
+train-logiciel-10-1,Demande de support logiciel,Bonjour. Le lecteur PDF plante sur tous les fichiers. Merci de vérifier ce problème.,logiciel,train-logiciel-10,simulation_pedagogique
+train-logiciel-11-0,Demande de support logiciel,La mise à jour du navigateur reste bloquée.,logiciel,train-logiciel-11,simulation_pedagogique
+train-logiciel-11-1,Demande de support logiciel,Bonjour. La mise à jour du navigateur reste bloquée. Merci de vérifier ce problème.,logiciel,train-logiciel-11,simulation_pedagogique
+train-logiciel-12-0,Demande de support logiciel,L’export du tableur échoue dans l’application.,logiciel,train-logiciel-12,simulation_pedagogique
+train-logiciel-12-1,Demande de support logiciel,Bonjour. L’export du tableur échoue dans l’application. Merci de vérifier ce problème.,logiciel,train-logiciel-12,simulation_pedagogique
+train-logiciel-13-0,Demande de support logiciel,Le logiciel de messagerie ne se lance plus.,logiciel,train-logiciel-13,simulation_pedagogique
+train-materiel-01-0,Demande de support materiel,Le clavier ne répond plus à la frappe des touches.,materiel,train-materiel-01,simulation_pedagogique
+train-materiel-01-1,Demande de support materiel,Bonjour. Le clavier ne répond plus à la frappe des touches. Merci de vérifier ce problème.,materiel,train-materiel-01,simulation_pedagogique
+train-materiel-02-0,Demande de support materiel,L’écran reste noir même avec le câble vidéo connecté.,materiel,train-materiel-02,simulation_pedagogique
+train-materiel-02-1,Demande de support materiel,Bonjour. L’écran reste noir même avec le câble vidéo connecté. Merci de vérifier ce problème.,materiel,train-materiel-02,simulation_pedagogique
+train-materiel-03-0,Demande de support materiel,La souris est cassée et le curseur ne bouge plus.,materiel,train-materiel-03,simulation_pedagogique
+train-materiel-03-1,Demande de support materiel,Bonjour. La souris est cassée et le curseur ne bouge plus. Merci de vérifier ce problème.,materiel,train-materiel-03,simulation_pedagogique
+train-materiel-04-0,Demande de support materiel,Une feuille est coincée dans l’imprimante du bureau.,materiel,train-materiel-04,simulation_pedagogique
+train-materiel-04-1,Demande de support materiel,Bonjour. Une feuille est coincée dans l’imprimante du bureau. Merci de vérifier ce problème.,materiel,train-materiel-04,simulation_pedagogique
+train-materiel-05-0,Demande de support materiel,Le disque dur fait des cliquetis inhabituels.,materiel,train-materiel-05,simulation_pedagogique
+train-materiel-05-1,Demande de support materiel,Bonjour. Le disque dur fait des cliquetis inhabituels. Merci de vérifier ce problème.,materiel,train-materiel-05,simulation_pedagogique
+train-materiel-06-0,Demande de support materiel,La batterie de mon ordinateur portable ne se recharge plus.,materiel,train-materiel-06,simulation_pedagogique
+train-materiel-06-1,Demande de support materiel,Bonjour. La batterie de mon ordinateur portable ne se recharge plus. Merci de vérifier ce problème.,materiel,train-materiel-06,simulation_pedagogique
+train-materiel-07-0,Demande de support materiel,Le ventilateur du poste produit un bruit mécanique important.,materiel,train-materiel-07,simulation_pedagogique
+train-materiel-07-1,Demande de support materiel,Bonjour. Le ventilateur du poste produit un bruit mécanique important. Merci de vérifier ce problème.,materiel,train-materiel-07,simulation_pedagogique
+train-materiel-08-0,Demande de support materiel,Le chargeur de l’ordinateur est endommagé.,materiel,train-materiel-08,simulation_pedagogique
+train-materiel-08-1,Demande de support materiel,Bonjour. Le chargeur de l’ordinateur est endommagé. Merci de vérifier ce problème.,materiel,train-materiel-08,simulation_pedagogique
+train-materiel-09-0,Demande de support materiel,L’ordinateur ne s’allume plus quand j’appuie sur le bouton.,materiel,train-materiel-09,simulation_pedagogique
+train-materiel-09-1,Demande de support materiel,Bonjour. L’ordinateur ne s’allume plus quand j’appuie sur le bouton. Merci de vérifier ce problème.,materiel,train-materiel-09,simulation_pedagogique
+train-materiel-10-0,Demande de support materiel,La webcam intégrée ne produit aucune image.,materiel,train-materiel-10,simulation_pedagogique
+train-materiel-10-1,Demande de support materiel,Bonjour. La webcam intégrée ne produit aucune image. Merci de vérifier ce problème.,materiel,train-materiel-10,simulation_pedagogique
+train-materiel-11-0,Demande de support materiel,Le scanner entraîne les feuilles de travers.,materiel,train-materiel-11,simulation_pedagogique
+train-materiel-11-1,Demande de support materiel,Bonjour. Le scanner entraîne les feuilles de travers. Merci de vérifier ce problème.,materiel,train-materiel-11,simulation_pedagogique
+train-materiel-12-0,Demande de support materiel,La prise USB du poste est physiquement cassée.,materiel,train-materiel-12,simulation_pedagogique
+train-materiel-12-1,Demande de support materiel,Bonjour. La prise USB du poste est physiquement cassée. Merci de vérifier ce problème.,materiel,train-materiel-12,simulation_pedagogique
+train-materiel-13-0,Demande de support materiel,Le casque audio a un câble coupé et aucun son.,materiel,train-materiel-13,simulation_pedagogique
+train-reseau-01-0,Demande de support reseau,La connexion wifi se coupe régulièrement sur mon ordinateur.,reseau,train-reseau-01,simulation_pedagogique
+train-reseau-01-1,Demande de support reseau,Bonjour. La connexion wifi se coupe régulièrement sur mon ordinateur. Merci de vérifier ce problème.,reseau,train-reseau-01,simulation_pedagogique
+train-reseau-02-0,Demande de support reseau,Le réseau filaire est inaccessible malgré le câble Ethernet branché.,reseau,train-reseau-02,simulation_pedagogique
+train-reseau-02-1,Demande de support reseau,Bonjour. Le réseau filaire est inaccessible malgré le câble Ethernet branché. Merci de vérifier ce problème.,reseau,train-reseau-02,simulation_pedagogique
+train-reseau-03-0,Demande de support reseau,Le VPN ne parvient pas à établir la connexion distante.,reseau,train-reseau-03,simulation_pedagogique
+train-reseau-03-1,Demande de support reseau,Bonjour. Le VPN ne parvient pas à établir la connexion distante. Merci de vérifier ce problème.,reseau,train-reseau-03,simulation_pedagogique
+train-reseau-04-0,Demande de support reseau,Internet est indisponible sur tous les postes du service.,reseau,train-reseau-04,simulation_pedagogique
+train-reseau-04-1,Demande de support reseau,Bonjour. Internet est indisponible sur tous les postes du service. Merci de vérifier ce problème.,reseau,train-reseau-04,simulation_pedagogique
+train-reseau-05-0,Demande de support reseau,Le routeur ne distribue plus de connexion aux ordinateurs.,reseau,train-reseau-05,simulation_pedagogique
+train-reseau-05-1,Demande de support reseau,Bonjour. Le routeur ne distribue plus de connexion aux ordinateurs. Merci de vérifier ce problème.,reseau,train-reseau-05,simulation_pedagogique
+train-reseau-06-0,Demande de support reseau,La résolution DNS des sites internes échoue sur le réseau.,reseau,train-reseau-06,simulation_pedagogique
+train-reseau-06-1,Demande de support reseau,Bonjour. La résolution DNS des sites internes échoue sur le réseau. Merci de vérifier ce problème.,reseau,train-reseau-06,simulation_pedagogique
+train-reseau-07-0,Demande de support reseau,La borne wifi ne diffuse plus le nom du réseau.,reseau,train-reseau-07,simulation_pedagogique
+train-reseau-07-1,Demande de support reseau,Bonjour. La borne wifi ne diffuse plus le nom du réseau. Merci de vérifier ce problème.,reseau,train-reseau-07,simulation_pedagogique
+train-reseau-08-0,Demande de support reseau,La connexion réseau est très lente et les pages ne chargent pas.,reseau,train-reseau-08,simulation_pedagogique
+train-reseau-08-1,Demande de support reseau,Bonjour. La connexion réseau est très lente et les pages ne chargent pas. Merci de vérifier ce problème.,reseau,train-reseau-08,simulation_pedagogique
+train-reseau-09-0,Demande de support reseau,Le serveur DHCP ne donne aucune adresse au poste.,reseau,train-reseau-09,simulation_pedagogique
+train-reseau-09-1,Demande de support reseau,Bonjour. Le serveur DHCP ne donne aucune adresse au poste. Merci de vérifier ce problème.,reseau,train-reseau-09,simulation_pedagogique
+train-reseau-10-0,Demande de support reseau,La passerelle réseau ne répond plus aux connexions.,reseau,train-reseau-10,simulation_pedagogique
+train-reseau-10-1,Demande de support reseau,Bonjour. La passerelle réseau ne répond plus aux connexions. Merci de vérifier ce problème.,reseau,train-reseau-10,simulation_pedagogique
+train-reseau-11-0,Demande de support reseau,Le switch du bureau semble déconnecter les postes filaires.,reseau,train-reseau-11,simulation_pedagogique
+train-reseau-11-1,Demande de support reseau,Bonjour. Le switch du bureau semble déconnecter les postes filaires. Merci de vérifier ce problème.,reseau,train-reseau-11,simulation_pedagogique
+train-reseau-12-0,Demande de support reseau,Le réseau invité sans fil est introuvable depuis ce matin.,reseau,train-reseau-12,simulation_pedagogique
+train-reseau-12-1,Demande de support reseau,Bonjour. Le réseau invité sans fil est introuvable depuis ce matin. Merci de vérifier ce problème.,reseau,train-reseau-12,simulation_pedagogique
+train-reseau-13-0,Demande de support reseau,Des pertes de paquets interrompent les appels réseau.,reseau,train-reseau-13,simulation_pedagogique
