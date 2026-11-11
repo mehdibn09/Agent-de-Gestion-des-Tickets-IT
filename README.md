@@ -1,11 +1,5 @@
 # TicketAssist — Agent intelligent de gestion des tickets IT
 
-**Qualification des demandes, proposition de priorité et orientation vers les équipes de support, avec validation humaine.**
-
-Projet pédagogique développé par **Mehdi Benjelloun** et **Oussama Kamil**, dans la continuité de **Sentiment-app**, application fil rouge du cours de développement et de déploiement d’applications intelligentes.
-
-> **État du projet — 11 novembre 2026 :** la base d’analyse de sentiment, l’API et les interfaces ont été préparées et testées localement. TicketAssist constitue l’évolution métier prévue : son cadrage, ses maquettes et ses données simulées sont disponibles dans le lot de lancement. La classification des tickets et leur suivi persistant restent à implémenter. Les fichiers livrés doivent être intégrés au dépôt pour que les liens et les commandes correspondants soient disponibles.
-
 ## 1. Présentation du projet
 
 Le traitement initial d’un ticket informatique demande de comprendre la description du problème, d’identifier sa catégorie, d’apprécier son niveau de priorité et de choisir l’équipe compétente. Ces opérations répétitives mobilisent les techniciens avant même le début de la résolution.
