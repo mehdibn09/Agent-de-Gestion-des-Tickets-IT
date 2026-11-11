@@ -1,0 +1,106 @@
+{
+  "n_test": 40,
+  "threshold": 0.45,
+  "accuracy_brute": 0.975,
+  "f1_macro_brut": 0.974937343358396,
+  "couverture": 0.975,
+  "abstentions": 1,
+  "accuracy_acceptee": 0.9743589743589743,
+  "classes": [
+    "acces",
+    "logiciel",
+    "materiel",
+    "reseau"
+  ],
+  "matrice_confusion": [
+    [
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "par_classe": {
+    "acces": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "logiciel": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 10.0
+    },
+    "materiel": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "reseau": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "accuracy": 0.975,
+    "macro avg": {
+      "precision": 0.9772727272727273,
+      "recall": 0.975,
+      "f1-score": 0.974937343358396,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 0.9772727272727273,
+      "recall": 0.975,
+      "f1-score": 0.974937343358396,
+      "support": 40.0
+    }
+  },
+  "par_longueur": {
+    "court": {
+      "n": 30,
+      "accuracy": 0.9666666666666667
+    },
+    "long": {
+      "n": 10,
+      "accuracy": 1.0
+    }
+  },
+  "limite": "Corpus de démonstration simulé ; aucune performance sur tickets réels n’est établie.",
+  "test_sha256": "1af0c4699f0102bbf9708842d5dae758a7d695c86ea084d4f34240375d2737e3",
+  "model_metadata": {
+    "format": 1,
+    "source": "CSV utilisateur ; voir data/README.md pour la provenance",
+    "n_train": 160,
+    "n_validation": 32,
+    "train_sha256": "1b7cde4a32b9288927d855d9dc1a26171eeea2c109bec9e3548b3542d10be7f2",
+    "validation_sha256": "7fece5877f4941f401c6d518da908ff4e60f8ee2783d89cb3779c88691ee2408",
+    "classes": [
+      "acces",
+      "logiciel",
+      "materiel",
+      "reseau"
+    ]
+  }
+}

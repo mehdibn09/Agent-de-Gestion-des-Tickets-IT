@@ -1,0 +1,139 @@
+{
+  "ood_n": 12,
+  "ood_refus": 8,
+  "ood_taux_refus": 0.6666666666666666,
+  "ood_details": [
+    {
+      "id": "OOD-01",
+      "description": "Quelle est la recette du couscous traditionnel ?",
+      "categorie": "materiel",
+      "categorie_proposee": "materiel",
+      "confiance": 0.456985,
+      "a_verifier": false,
+      "motif": "classification"
+    },
+    {
+      "id": "OOD-02",
+      "description": "Quel temps fera-t-il demain à Casablanca ?",
+      "categorie": null,
+      "categorie_proposee": "reseau",
+      "confiance": 0.367266,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-03",
+      "description": "Combien vaut une assurance automobile ?",
+      "categorie": null,
+      "categorie_proposee": "logiciel",
+      "confiance": 0.341972,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-04",
+      "description": "Comment apprendre la guitare classique ?",
+      "categorie": "reseau",
+      "categorie_proposee": "reseau",
+      "confiance": 0.464546,
+      "a_verifier": false,
+      "motif": "classification"
+    },
+    {
+      "id": "OOD-05",
+      "description": "Organisez un voyage touristique en montagne.",
+      "categorie": null,
+      "categorie_proposee": "materiel",
+      "confiance": 0.313889,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-06",
+      "description": "Racontez une histoire pour enfants.",
+      "categorie": "acces",
+      "categorie_proposee": "acces",
+      "confiance": 0.540422,
+      "a_verifier": false,
+      "motif": "classification"
+    },
+    {
+      "id": "OOD-07",
+      "description": "Bonjour merci beaucoup bonne journée.",
+      "categorie": null,
+      "categorie_proposee": "materiel",
+      "confiance": 0.287691,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-08",
+      "description": "Je voudrais réserver une table au restaurant.",
+      "categorie": "acces",
+      "categorie_proposee": "acces",
+      "confiance": 0.46454,
+      "a_verifier": false,
+      "motif": "classification"
+    },
+    {
+      "id": "OOD-09",
+      "description": "xqzv wlkptr grmbu zzzz qqqq",
+      "categorie": null,
+      "categorie_proposee": "materiel",
+      "confiance": 0.278017,
+      "a_verifier": true,
+      "motif": "hors_vocabulaire"
+    },
+    {
+      "id": "OOD-10",
+      "description": "Quel est le classement du championnat de football ?",
+      "categorie": null,
+      "categorie_proposee": "materiel",
+      "confiance": 0.389608,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-11",
+      "description": "Le jardin a besoin de nouveaux arbres fruitiers.",
+      "categorie": null,
+      "categorie_proposee": "logiciel",
+      "confiance": 0.394084,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    },
+    {
+      "id": "OOD-12",
+      "description": "Comment préparer un gâteau au chocolat ?",
+      "categorie": null,
+      "categorie_proposee": "materiel",
+      "confiance": 0.305482,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    }
+  ],
+  "erreurs_ou_abstentions_test": [
+    {
+      "id": "test-materiel-02-0",
+      "description": "Le moniteur affiche des lignes verticales même sans application.",
+      "attendu": "materiel",
+      "categorie": "logiciel",
+      "categorie_proposee": "logiciel",
+      "confiance": 0.550753,
+      "a_verifier": false,
+      "motif": "classification"
+    },
+    {
+      "id": "test-acces-07-0",
+      "description": "Le nouveau collaborateur attend la création de son compte.",
+      "attendu": "acces",
+      "categorie": null,
+      "categorie_proposee": "acces",
+      "confiance": 0.313438,
+      "a_verifier": true,
+      "motif": "confiance_insuffisante"
+    }
+  ],
+  "model_sha256": "d207af5a646e4b1b70093b7292c43d104a8d9da8c3dbb36eab8f8a0a984190e7",
+  "limite": "12 demandes hors domaine simulées, pas une garantie d'évitement de tous les hors domaine"
+}

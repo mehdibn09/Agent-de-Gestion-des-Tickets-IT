@@ -1,0 +1,41 @@
+id,titre,description,categorie,famille,source
+test-reseau-01-0,Demande de support reseau,Le signal wifi du bureau disparaît et revient sans arrêt.,reseau,test-reseau-01,simulation_pedagogique
+test-reseau-02-0,Demande de support reseau,Impossible de monter le VPN depuis le réseau de mon domicile.,reseau,test-reseau-02,simulation_pedagogique
+test-reseau-03-0,Demande de support reseau,Les postes raccordés au switch n’ont plus Internet.,reseau,test-reseau-03,simulation_pedagogique
+test-reseau-04-0,Demande de support reseau,La connexion réseau affiche des pertes de paquets.,reseau,test-reseau-04,simulation_pedagogique
+test-reseau-05-0,Demande de support reseau,Le DHCP ne fournit plus d’adresse réseau au portable.,reseau,test-reseau-05,simulation_pedagogique
+test-reseau-06-0,Demande de support reseau,La navigation Internet reste très lente sur le réseau filaire.,reseau,test-reseau-06,simulation_pedagogique
+test-reseau-07-0,Demande de support reseau,Les ordinateurs ne voient plus la borne wifi.,reseau,test-reseau-07,simulation_pedagogique
+test-reseau-08-0,Demande de support reseau,Le routeur ne répond plus et le réseau est interrompu.,reseau,test-reseau-08,simulation_pedagogique
+test-reseau-09-0,Demande de support reseau,Le DNS empêche d’accéder aux serveurs du réseau local.,reseau,test-reseau-09,simulation_pedagogique
+test-reseau-10-0,Demande de support reseau,La liaison Ethernet se déconnecte pendant le travail.,reseau,test-reseau-10,simulation_pedagogique
+test-materiel-01-0,Demande de support materiel,Les touches du clavier sont détachées de leur support.,materiel,test-materiel-01,simulation_pedagogique
+test-materiel-02-0,Demande de support materiel,Le moniteur affiche des lignes verticales même sans application.,materiel,test-materiel-02,simulation_pedagogique
+test-materiel-03-0,Demande de support materiel,Le câble du casque audio est sectionné.,materiel,test-materiel-03,simulation_pedagogique
+test-materiel-04-0,Demande de support materiel,La souris reste immobile après remplacement des piles.,materiel,test-materiel-04,simulation_pedagogique
+test-materiel-05-0,Demande de support materiel,Le bac papier de l’imprimante est cassé.,materiel,test-materiel-05,simulation_pedagogique
+test-materiel-06-0,Demande de support materiel,Le disque SSD est absent de la liste des périphériques au démarrage.,materiel,test-materiel-06,simulation_pedagogique
+test-materiel-07-0,Demande de support materiel,Le portable ne démarre plus avec son chargeur habituel.,materiel,test-materiel-07,simulation_pedagogique
+test-materiel-08-0,Demande de support materiel,La webcam intégrée n’affiche aucune image.,materiel,test-materiel-08,simulation_pedagogique
+test-materiel-09-0,Demande de support materiel,Le ventilateur du poste fait un bruit de frottement.,materiel,test-materiel-09,simulation_pedagogique
+test-materiel-10-0,Demande de support materiel,La batterie du portable reste vide malgré la recharge.,materiel,test-materiel-10,simulation_pedagogique
+test-logiciel-01-0,Demande de support logiciel,Le programme de comptabilité affiche une erreur et se ferme.,logiciel,test-logiciel-01,simulation_pedagogique
+test-logiciel-02-0,Demande de support logiciel,La mise à jour du logiciel reste bloquée pendant l’installation.,logiciel,test-logiciel-02,simulation_pedagogique
+test-logiciel-03-0,Demande de support logiciel,Le navigateur plante à l’ouverture des onglets.,logiciel,test-logiciel-03,simulation_pedagogique
+test-logiciel-04-0,Demande de support logiciel,Le tableur se fige quand je lance un calcul.,logiciel,test-logiciel-04,simulation_pedagogique
+test-logiciel-05-0,Demande de support logiciel,Le traitement de texte quitte pendant la sauvegarde.,logiciel,test-logiciel-05,simulation_pedagogique
+test-logiciel-06-0,Demande de support logiciel,L’application de présentation ne lance plus les diapositives.,logiciel,test-logiciel-06,simulation_pedagogique
+test-logiciel-07-0,Demande de support logiciel,Le logiciel de messagerie affiche une erreur de version.,logiciel,test-logiciel-07,simulation_pedagogique
+test-logiciel-08-0,Demande de support logiciel,L’installation du programme métier échoue à la dernière étape.,logiciel,test-logiciel-08,simulation_pedagogique
+test-logiciel-09-0,Demande de support logiciel,Le lecteur PDF se ferme quand il ouvre un document.,logiciel,test-logiciel-09,simulation_pedagogique
+test-logiciel-10-0,Demande de support logiciel,Le logiciel de dessin bloque pendant l’export du fichier.,logiciel,test-logiciel-10,simulation_pedagogique
+test-acces-01-0,Demande de support acces,Le compte utilisateur est verrouillé après trop de tentatives.,acces,test-acces-01,simulation_pedagogique
+test-acces-02-0,Demande de support acces,Le répertoire partagé refuse mes droits de lecture.,acces,test-acces-02,simulation_pedagogique
+test-acces-03-0,Demande de support acces,J’ai oublié mon mot de passe et je demande une réinitialisation.,acces,test-acces-03,simulation_pedagogique
+test-acces-04-0,Demande de support acces,Le code de connexion à deux facteurs n’est pas accepté.,acces,test-acces-04,simulation_pedagogique
+test-acces-05-0,Demande de support acces,Mon identifiant a été désactivé sur le portail.,acces,test-acces-05,simulation_pedagogique
+test-acces-06-0,Demande de support acces,Je demande une permission pour modifier le dossier commun.,acces,test-acces-06,simulation_pedagogique
+test-acces-07-0,Demande de support acces,Le nouveau collaborateur attend la création de son compte.,acces,test-acces-07,simulation_pedagogique
+test-acces-08-0,Demande de support acces,Le jeton d’authentification de mon compte n’est plus valide.,acces,test-acces-08,simulation_pedagogique
+test-acces-09-0,Demande de support acces,Le portail indique que mon rôle est insuffisant.,acces,test-acces-09,simulation_pedagogique
+test-acces-10-0,Demande de support acces,Je n’ai plus l’autorisation d’ouvrir le répertoire du service.,acces,test-acces-10,simulation_pedagogique

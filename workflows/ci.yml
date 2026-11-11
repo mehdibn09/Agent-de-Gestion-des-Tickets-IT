@@ -1,0 +1,53 @@
+name: TicketAssist CI
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    env:
+      STREAMLIT_BROWSER_GATHER_USAGE_STATS: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Installer
+        run: python -m pip install -r requirements.txt -r requirements-dev.txt
+      - name: Qualité
+        run: |
+          python -m ruff check .
+          python -m mypy ticket_agent api ui src scripts
+      - name: Entraîner et évaluer
+        run: |
+          ticket train
+          ticket evaluate
+          python src/mesurer.py
+          python src/courbe_seuil.py
+      - name: Tests et couverture
+        run: python -m pytest -q --cov=ticket_agent --cov=api --cov=ui.client --cov-report=term-missing --cov-fail-under=85
+      - name: Distributions
+        run: python -m build
+      - name: Roue installée hors dépôt
+        run: |
+          python -m venv "$RUNNER_TEMP/ticket-roue"
+          "$RUNNER_TEMP/ticket-roue/bin/pip" install dist/*.whl
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/ticket-roue/bin/ticket" --version
+          TICKET_MODEL="$GITHUB_WORKSPACE/models/tickets.joblib" "$RUNNER_TEMP/ticket-roue/bin/ticket" analyze "Le réseau wifi ne permet plus la connexion Internet."
+      - uses: actions/upload-artifact@v4
+        with:
+          name: distributions-python-${{ matrix.python-version }}
+          path: dist/*
+  docker:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Construire le conteneur
+        run: docker build -t ticket-assist:test .
+      - name: Vérifier le modèle et la commande en conteneur
+        run: docker run --rm ticket-assist:test ticket analyze "Le clavier du poste est cassé et ne répond plus."

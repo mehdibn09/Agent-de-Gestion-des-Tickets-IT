@@ -1,0 +1,98 @@
+# Vérification locale — TicketAssist 1.0.0 — 11 novembre 2026
+
+Environnement : Linux, Python 3.12.14. Versions observées dans docs/environnement-validation.json.
+
+Commandes réellement exécutées :
+- pip install --no-deps --no-build-isolation -e ".[ui]" dans l’environnement de travail déjà équipé.
+- ticket train, ticket evaluate, src/courbe_seuil.py, src/mesurer.py.
+- ruff check . : All checks passed!
+- mypy ticket_agent api ui src scripts : Success, 22 fichiers.
+- pytest avec couverture : 93 réussis, aucun échec, aucun test ignoré ; couverture 97,33 %.
+- bash -n scripts/setup.sh scripts/lancer_web.sh : syntaxe valide.
+- Serveur Uvicorn réellement démarré sur port local temporaire : santé, création A_VALIDER, validation admin, démarrage, résolution et lecture de quatre événements vérifiés.
+- Construction source et roue : réussie.
+- Contenu des distributions comparé aux sources, absence de .env réel, modèle et SQLite contrôlée.
+- Roue installée dans un répertoire temporaire hors dépôt, sur les dépendances préinstallées : imports depuis la roue confirmés, CLI --version, analyze et création par l’API vérifiés.
+
+Portée exacte : l’essai de roue isole les fichiers du paquet, pas l’installation complète des dépendances depuis Internet. Une installation dans un environnement totalement vierge reste à confirmer. Les avertissements de dépréciation des dépendances et OptimizeWarning de la combinaison SciPy/scikit-learn observée sont présents dans le journal, sans échec de test.
+
+Non exécuté ici : scripts PowerShell/CMD sur Windows, conteneurs Docker (outil absent), CI GitHub distante, évaluation sur tickets réels. Ces points ne sont pas présentés comme validés à 100 %.
+
+Résumé et journal pytest :
+
+........................................................................ [ 77%]
+.....................                                                    [100%]
+=============================== warnings summary ===============================
+../tp6_env/lib/python3.12/site-packages/starlette/testclient.py:37
+  /workspace/scratch/5fa4380c0aed/tp6_env/lib/python3.12/site-packages/starlette/testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+tests/test_api.py::test_health_public
+  /workspace/scratch/5fa4380c0aed/tp6_env/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:455: OptimizeWarning: Unknown solver options: iprint
+    opt_res = optimize.minimize(
+
+tests/test_api.py: 145 warnings
+tests/test_config_cli.py: 20 warnings
+tests/test_model.py: 70 warnings
+tests/test_ui.py: 15 warnings
+  /workspace/scratch/5fa4380c0aed/tp6_env/lib/python3.12/site-packages/joblib/numpy_pickle.py:188: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+    array.shape = self.shape
+
+tests/test_ui.py::test_creation_depuis_interface
+  /workspace/scratch/5fa4380c0aed/tp6_env/lib/python3.12/site-packages/streamlit/elements/vega_charts.py:358: AltairDeprecationWarning: 
+  Deprecated since `altair=5.5.0`. Use altair.theme instead.
+  Most cases require only the following change:
+  
+      # Deprecated
+      alt.themes.enable('quartz')
+  
+      # Updated
+      alt.theme.enable('quartz')
+  
+  If your code registers a theme, make the following change:
+  
+      # Deprecated
+      def custom_theme():
+          return {'height': 400, 'width': 700}
+      alt.themes.register('theme_name', custom_theme)
+      alt.themes.enable('theme_name')
+  
+      # Updated
+      @alt.theme.register('theme_name', enable=True)
+      def custom_theme():
+          return alt.theme.ThemeConfig(
+              {'height': 400, 'width': 700}
+          )
+  
+  See the updated User Guide for further details:
+      https://altair-viz.github.io/user_guide/api.html#theme
+      https://altair-viz.github.io/user_guide/customization.html#chart-themes
+    with alt.themes.enable("none") if alt.themes.active == "default" else nullcontext():  # type: ignore[attr-defined,unused-ignore]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+api/main.py                     84      0   100%
+api/schemas.py                  53      0   100%
+api/security.py                 24      0   100%
+ticket_agent/__init__.py         1      0   100%
+ticket_agent/__main__.py         2      2     0%   1-3
+ticket_agent/agent.py           18      0   100%
+ticket_agent/cli.py             83     11    87%   56-58, 60-65, 68, 78
+ticket_agent/config.py          34      0   100%
+ticket_agent/corpus.py          39      0   100%
+ticket_agent/evaluation.py      17      0   100%
+ticket_agent/model.py           55      2    96%   20, 50
+ticket_agent/rules.py           12      0   100%
+ticket_agent/storage.py         96      0   100%
+ui/client.py                    43      0   100%
+----------------------------------------------------------
+TOTAL                          561     15    97%
+
+1 empty file skipped.
+Required test coverage of 85% reached. Total coverage: 97.33%
+93 passed, 253 warnings in 19.91s

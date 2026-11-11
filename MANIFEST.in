@@ -1,0 +1,14 @@
+include PROVENANCE.md DOSSIER-LANCEMENT.md .pre-commit-config.yaml README.md CHANGELOG.md LIVRAISON.md MIGRATION.md requirements*.txt pytest.ini Makefile Dockerfile compose.yaml .dockerignore .env.example .gitignore
+recursive-include ticket_agent *.py
+recursive-include api *.py
+recursive-include ui *.py
+recursive-include src *.py
+recursive-include scripts *.py *.bat *.ps1 *.sh
+recursive-include tests *.py
+recursive-include data *.csv *.md
+recursive-include docs *.md *.json *.txt *.svg
+recursive-include models *.json *.csv
+recursive-include .github *.yml
+recursive-include .streamlit *.toml
+recursive-exclude * __pycache__ *.pyc
+exclude models/*.joblib

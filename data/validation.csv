@@ -1,0 +1,33 @@
+id,titre,description,categorie,famille,source
+validation-reseau-01-0,Demande de support reseau,Le wifi de la salle ne permet plus de rejoindre le réseau.,reseau,validation-reseau-01,simulation_pedagogique
+validation-reseau-02-0,Demande de support reseau,Le tunnel VPN refuse de se connecter au réseau distant.,reseau,validation-reseau-02,simulation_pedagogique
+validation-reseau-03-0,Demande de support reseau,La connexion Ethernet ne donne aucun accès Internet.,reseau,validation-reseau-03,simulation_pedagogique
+validation-reseau-04-0,Demande de support reseau,Le DNS du réseau ne résout plus les noms de serveur.,reseau,validation-reseau-04,simulation_pedagogique
+validation-reseau-05-0,Demande de support reseau,Le réseau local perd des paquets pendant les réunions.,reseau,validation-reseau-05,simulation_pedagogique
+validation-reseau-06-0,Demande de support reseau,La borne wifi reste introuvable pour plusieurs postes.,reseau,validation-reseau-06,simulation_pedagogique
+validation-reseau-07-0,Demande de support reseau,Le switch coupe la connexion réseau du service.,reseau,validation-reseau-07,simulation_pedagogique
+validation-reseau-08-0,Demande de support reseau,Le réseau filaire fonctionne par intermittence.,reseau,validation-reseau-08,simulation_pedagogique
+validation-materiel-01-0,Demande de support materiel,Le clavier du bureau a des touches bloquées.,materiel,validation-materiel-01,simulation_pedagogique
+validation-materiel-02-0,Demande de support materiel,Mon écran reste éteint avec le câble branché.,materiel,validation-materiel-02,simulation_pedagogique
+validation-materiel-03-0,Demande de support materiel,Le papier reste coincé dans le mécanisme de l’imprimante.,materiel,validation-materiel-03,simulation_pedagogique
+validation-materiel-04-0,Demande de support materiel,La batterie du portable est gonflée et ne charge plus.,materiel,validation-materiel-04,simulation_pedagogique
+validation-materiel-05-0,Demande de support materiel,Le disque dur fait un bruit métallique.,materiel,validation-materiel-05,simulation_pedagogique
+validation-materiel-06-0,Demande de support materiel,La souris a un bouton physiquement cassé.,materiel,validation-materiel-06,simulation_pedagogique
+validation-materiel-07-0,Demande de support materiel,Le chargeur du poste a un câble endommagé.,materiel,validation-materiel-07,simulation_pedagogique
+validation-materiel-08-0,Demande de support materiel,Le ventilateur du portable ne tourne plus.,materiel,validation-materiel-08,simulation_pedagogique
+validation-logiciel-01-0,Demande de support logiciel,Le logiciel de facturation plante pendant son lancement.,logiciel,validation-logiciel-01,simulation_pedagogique
+validation-logiciel-02-0,Demande de support logiciel,Le tableur se ferme lors de l’ouverture d’un fichier.,logiciel,validation-logiciel-02,simulation_pedagogique
+validation-logiciel-03-0,Demande de support logiciel,L’application de gestion refuse sa mise à jour.,logiciel,validation-logiciel-03,simulation_pedagogique
+validation-logiciel-04-0,Demande de support logiciel,Le navigateur se bloque après l’installation d’une extension.,logiciel,validation-logiciel-04,simulation_pedagogique
+validation-logiciel-05-0,Demande de support logiciel,Le lecteur PDF affiche une erreur dans tous les documents.,logiciel,validation-logiciel-05,simulation_pedagogique
+validation-logiciel-06-0,Demande de support logiciel,L’installation du programme de dessin est impossible.,logiciel,validation-logiciel-06,simulation_pedagogique
+validation-logiciel-07-0,Demande de support logiciel,Le traitement de texte se ferme au démarrage.,logiciel,validation-logiciel-07,simulation_pedagogique
+validation-logiciel-08-0,Demande de support logiciel,Le logiciel de visioconférence plante à chaque appel.,logiciel,validation-logiciel-08,simulation_pedagogique
+validation-acces-01-0,Demande de support acces,Mon identifiant est refusé car mon compte est bloqué.,acces,validation-acces-01,simulation_pedagogique
+validation-acces-02-0,Demande de support acces,Je dois réinitialiser le mot de passe de mon compte.,acces,validation-acces-02,simulation_pedagogique
+validation-acces-03-0,Demande de support acces,L’autorisation de lecture du dossier est absente.,acces,validation-acces-03,simulation_pedagogique
+validation-acces-04-0,Demande de support acces,Le code d’authentification de mon compte est expiré.,acces,validation-acces-04,simulation_pedagogique
+validation-acces-05-0,Demande de support acces,Le portail dit que mon utilisateur est désactivé.,acces,validation-acces-05,simulation_pedagogique
+validation-acces-06-0,Demande de support acces,Je demande un compte pour une nouvelle personne.,acces,validation-acces-06,simulation_pedagogique
+validation-acces-07-0,Demande de support acces,Mes droits ne permettent pas d’écrire dans le répertoire.,acces,validation-acces-07,simulation_pedagogique
+validation-acces-08-0,Demande de support acces,La double authentification refuse le code de vérification.,acces,validation-acces-08,simulation_pedagogique
